@@ -37,11 +37,9 @@ mayusculas(pasises);
 //Ejercicio 4
 function pares (arreglo) {
     const arrayNuevo = [];
-    let j = 0;
     for (let i = 0; i <= arreglo.length; i++){
         if (arreglo[i] % 2 == 0) {
-            arrayNuevo[j] = arreglo[i];
-            j++;
+            arrayNuevo.push(arreglo[i]);
         }
     }
     return console.log(arrayNuevo);
